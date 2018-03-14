@@ -1,2 +1,2 @@
 # CSharp-katas
-Some brief exercise to keep your C# skills, well, sharper. 
+Some brief exercises to keep your C# skills, well, sharper. 
