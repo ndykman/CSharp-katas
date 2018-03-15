@@ -1,12 +1,12 @@
 # Exercise One:
 
-Welcome. Today, we pondering winning or losing streaks. 
+Welcome. Today, we are pondering winning or losing streaks. 
 
-A streak is the longer set of consecutive wins or losses (as a common example) for a given period. 
+A streak is the longest set of consecutive wins or losses (as a common example) for a given period. 
 
-The goal is to write a method that returns the length of the longest streak, winning or losing given a team record of wins and losses. 
+The goal is to write a method that returns the length of the longest streak given a record.
 
-A team record is will be an array of booleans. An example:
+A record will be an array of booleans. An example:
 
 [0,1,1,0] 
 
@@ -14,7 +14,7 @@ In this case, it is a streak of two wins that is the longest.
 
 ## Warmup 
 
-There is no solution here. Add a solution like the one in Exercise One, but use the namespace Csk.Streak. So, you will have two projects in the solution, one a .Net Core class library (Csk.Streak) and one a XUnit project (Csk.Streak.Tests)
+There is no solution here. Add a solution like the one in Exercise Zero, but use the namespace Csk.Streak. So, you will have two projects in the solution, one a .Net Core class library (Csk.Streak) and one a XUnit project (Csk.Streak.Tests)
 
 # Tasks
 
@@ -40,7 +40,7 @@ For example, given [0,1,1,1,0,0] the longest streak is a winning streak of three
 
 Generalize this method so that it takes an array of a generic type, and still works. Assume equality is correct for the type.
 
-The code should work. You can rename the class to match the name you used, of course.
+The following code should work. You can rename the class to match the name you used, of course.
 
     var streakChecker = new StreakChecker()
     int opposingStreakLength;
